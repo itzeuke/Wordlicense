@@ -29,6 +29,8 @@ body {
     padding: 10%;
 }
 
+
+
 .url {
     text-decoration: none;
     color: black;
@@ -49,7 +51,7 @@ body {
 
 
 #header {
-    margin-top: 7%;
+    margin-top: 70px;
     margin-bottom: 3%;
 }
 
@@ -62,3 +64,21 @@ span {
     display: inline;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .section {
+        width: 90vw;
+    }
+
+    #navelement-left {
+        margin-left: 2%;
+    }
+
+    #navelement-right {
+        margin-right: 2%;
+    }
+    
+    .navelement {
+        padding: 7%;
+    }
+}
