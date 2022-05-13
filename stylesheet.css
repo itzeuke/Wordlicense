@@ -18,7 +18,7 @@ body {
 .navbar {
     display: flex;
     width: 100vw;
-    height: 7vh;
+    height: 60px;
     background-color: rgb(187, 187, 187);
     border: 2.5px solid gray;
     align-items: center;
@@ -61,3 +61,4 @@ body {
 span {
     display: inline;
 }
+
