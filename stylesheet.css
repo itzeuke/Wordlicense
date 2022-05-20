@@ -39,14 +39,14 @@ body {
 
 /* URL's in the navbar */
 
-.url {
+.anchor {
     text-decoration: none;
     color: black;
     font-family: Verdana;
     font-size: 110%;
 }
 
-.url:hover {
+.anchor:hover {
     text-decoration: underline;
 }
 
@@ -71,6 +71,22 @@ body {
 #license {
     margin-top: 20px;
     margin-bottom: 3%;
+}
+
+.tutorial-flex, .tutorial-flex2 {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+
+.text-flex {
+    margin: 20px 5%;
+    width: 50%;
+}
+.img-flex {
+    width: 35%;
+    margin-top: 20px;
 }
 
 
@@ -99,4 +115,70 @@ body {
         margin-top: 3%;
         margin-bottom: 3%;
     }
+
+    .tutorial-flex {
+    flex-direction: column;
+    }
+
+    .tutorial-flex2 {
+        flex-direction: column-reverse;
+    }
+
+    .img-flex {
+        width: 85%;
+    }
+
+    .text-flex {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .column {
+        display: block;
+    }
+
+    .section {
+        width: 90vw;
+    }
+
+    #navelement-left, #navelement-right {
+        margin-left: 2%;
+    }
+    
+    .navelement {
+        padding: 7%;
+    }
+
+    #header {
+        margin-top: 70px;
+        margin-bottom: 3%;
+    }
+
+    #license {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .tutorial-flex {
+    flex-direction: column;
+    }
+
+    .tutorial-flex2 {
+        flex-direction: column-reverse;
+    }
+
+    .img-flex {
+        width: 80%;
+    }
+
+    .text-flex {
+        width: 100%;
+    }
+
+
+
 }
