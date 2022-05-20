@@ -135,7 +135,7 @@ body {
 
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 400px) {
 
     .column {
         display: block;
