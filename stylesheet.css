@@ -89,8 +89,72 @@ body {
     margin-top: 20px;
 }
 
+.img-size {
+    width: 100%;
+    height: auto;
+}
 
-/* DISPLAY LAYOUT FOR MOBILE */
+
+
+
+/* DISPLAY LAYOUTS FOR MOBILE AND SMALLER LAPTOPS*/
+
+@media only screen and (max-width: 1024px) {
+
+    .column {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .section {
+        width: 90vw;
+    }
+
+    #navelement-left, #navelement-right {
+        margin-left: 2%;
+    }
+    
+    .navelement {
+        padding: 7%;
+    }
+
+    #header {
+        margin-top: 70px;
+        margin-bottom: 3%;
+    }
+
+    #license {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .tutorial-flex {
+    flex-direction: column;
+    }
+
+    .tutorial-flex2 {
+        flex-direction: column-reverse;
+    }
+
+    .img-flex {
+        width: 85%;
+    }
+
+    .text-flex {
+        width: 100%;
+    }
+
+    .img-size {
+        width: 50%;
+        height: auto;
+    }
+
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -132,8 +196,14 @@ body {
         width: 100%;
     }
 
+    .img-size {
+        width: 100%;
+        height: auto;
+    }
 
 }
+
+
 
 @media only screen and (max-width: 400px) {
 
@@ -178,7 +248,5 @@ body {
     .text-flex {
         width: 100%;
     }
-
-
 
 }
