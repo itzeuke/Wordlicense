@@ -8,6 +8,7 @@ You are not allowed to use this code for your own website!
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 60px;
 }
 
 
